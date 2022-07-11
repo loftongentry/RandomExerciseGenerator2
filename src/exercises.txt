@@ -1,3 +1,4 @@
+//This is the test data set
 exercise 1,home,yes,hands
 exercise 1,home,yes,hands
 exercise 1,home,yes,hands
