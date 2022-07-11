@@ -1,12 +1,12 @@
-exercise 1, home, yes, hands
-exercise 1, home, yes, hands
-exercise 1, home, yes, hands
-exercise 1, home, yes, hands
-exercise 2, gym, no, feet
-exercise 2, gym, no, feet
-exercise 2, gym, no, feet
-exercise 2, gym, no, feet
-exercise 3, both, optional, back
-exercise 3, both, optional, back
-exercise 3, both, optional, back
-exercise 3, both, optional, back
+exercise 1,home,yes,hands
+exercise 1,home,yes,hands
+exercise 1,home,yes,hands
+exercise 1,home,yes,hands
+exercise 2,gym,no,feet
+exercise 2,gym,no,feet
+exercise 2,gym,no,feet
+exercise 2,gym,no,feet
+exercise 3,both,optional,back
+exercise 3,both,optional,back
+exercise 3,both,optional,back
+exercise 3,both,optional,back
