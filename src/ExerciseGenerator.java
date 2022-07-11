@@ -61,7 +61,7 @@ public class ExerciseGenerator{
         //Creating the new exercise object
         Exercise e = new Exercise(exe,loc,w,ml);
         //Adding the exercise object to the ArrayList exercises
-        //TODO: Implement way for the exercises to the major data set (which will eventually be created)
+        //TODO: Implement way for the exercises to the major data set
     }
 
     //TODO: Read in a file properly so the system can manipulate it
