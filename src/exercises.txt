@@ -1,13 +1,12 @@
-//This is the test data set
-exercise 1,home,yes,hands
-exercise 1,home,yes,hands
-exercise 1,home,yes,hands
-exercise 1,home,yes,hands
-exercise 2,gym,no,feet
-exercise 2,gym,no,feet
-exercise 2,gym,no,feet
-exercise 2,gym,no,feet
-exercise 3,both,optional,back
-exercise 3,both,optional,back
-exercise 3,both,optional,back
-exercise 3,both,optional,back
+exercise 1-delim-home-delim-yes-delim-hands
+exercise 1-delim-home-delim-yes-delim-hands
+exercise 1-delim-home-delim-yes-delim-hands
+exercise 1-delim-home-delim-yes-delim-hands
+exercise 2-delim-gym-delim-no-delim-feet
+exercise 2-delim-gym-delim-no-delim-feet
+exercise 2-delim-gym-delim-no-delim-feet
+exercise 2-delim-gym-delim-no-delim-feet
+exercise 3-delim-both-delim-optional-delim-back
+exercise 3-delim-both-delim-optional-delim-back
+exercise 3-delim-both-delim-optional-delim-back
+exercise 3-delim-both-delim-optional-delim-back

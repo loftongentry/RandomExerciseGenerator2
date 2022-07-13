@@ -4,11 +4,11 @@ case I decide to use them in some way in the future. No default constructor is n
  */
 public class Exercise {
     private String exercise;
-    private String location;
-    private String weighted;
+    private location location;
+    private weighted weighted;
     String muscleLocation;
 
-    public Exercise(String newExercise, String newLocation, String newWeighted, String newMuscleLocation){
+    public Exercise(String newExercise, location newLocation, weighted newWeighted, String newMuscleLocation){
         this.exercise = newExercise;
         //Three options: Home, Gym, Both
         this.location = newLocation;
@@ -19,16 +19,16 @@ public class Exercise {
     }
     //Setter methods for the 4 current parameters for
     public void setExercise(String newExercise){ this.exercise = newExercise; }
-    public void setLocation(String newLocation){ this.location = newLocation; }
-    public void setWeighted(String newWeighted){ this.weighted = newWeighted; }
+    public void setLocation(location newLocation){ this.location = newLocation; }
+    public void setWeighted(weighted newWeighted){ this.weighted = newWeighted; }
     public void setMuscleLocation(String newMuscleLocation){ this.muscleLocation = newMuscleLocation; }
     public String getExercise(){
         return this.exercise;
     }
-    public String getLocation(){
+    public location getLocation(){
         return this.location;
     }
-    public String getWeighted(){
+    public weighted getWeighted(){
         return this.weighted;
     }
     public String getMuscleLocation(){

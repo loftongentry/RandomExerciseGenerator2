@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 /*
-Constructor for ArrayList ExerciseSet. No default constructor is needed.
+Constructor for ArrayList ExerciseSet. No default constructor is needed. Currently, not in use
  */
 public class Exercises {
     private String exerciseSetName;
