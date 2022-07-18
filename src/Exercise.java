@@ -2,6 +2,7 @@
 Constructor class for creating new exercises. Currently, the getter methods are redundant, but I'm leaving them in
 case I decide to use them in some way in the future. No default constructor is needed
  */
+//TODO: Change muscleLocation from a String to an enumerator class
 public class Exercise {
     private String exercise;
     private location location;

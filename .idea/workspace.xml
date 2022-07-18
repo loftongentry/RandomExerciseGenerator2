@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9166cfe3-231e-46e1-adcd-4cadb83be9f3" name="Changes" comment="First initial commit and adding in a TODO">
-      <change afterPath="$PROJECT_DIR$/src/location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/weighted.java" afterDir="false" />
+    <list default="true" id="9166cfe3-231e-46e1-adcd-4cadb83be9f3" name="Changes" comment="1. Removing several TODOs, while adding several more&#10;2. Adding enumerator classes&#10;3. Adjusting exercise constructor to include the enumerators instead of strings&#10;4. Removing a method and implementing its process into another method to decrease size of program &#10;5. Adding additional comments for clarification&#10;6. Correcting grammatical errors on some comments&#10;7. Adjusting program so that it properly reads in a text file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ExerciseGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercises.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exercises.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657505140775</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1. Removing several TODOs, while adding several more&#10;2. Adding enumerator classes&#10;3. Adjusting exercise constructor to include the enumerators instead of strings&#10;4. Removing a method and implementing its process into another method to decrease size of program &#10;5. Adding additional comments for clarification&#10;6. Correcting grammatical errors on some comments&#10;7. Adjusting program so that it properly reads in a text file">
+      <created>1657739863142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657739863142</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,7 +105,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First initial commit and adding in a TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="First initial commit and adding in a TODO" />
+    <MESSAGE value="1. Removing several TODOs, while adding several more&#10;2. Adding enumerator classes&#10;3. Adjusting exercise constructor to include the enumerators instead of strings&#10;4. Removing a method and implementing its process into another method to decrease size of program &#10;5. Adding additional comments for clarification&#10;6. Correcting grammatical errors on some comments&#10;7. Adjusting program so that it properly reads in a text file" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Removing several TODOs, while adding several more&#10;2. Adding enumerator classes&#10;3. Adjusting exercise constructor to include the enumerators instead of strings&#10;4. Removing a method and implementing its process into another method to decrease size of program &#10;5. Adding additional comments for clarification&#10;6. Correcting grammatical errors on some comments&#10;7. Adjusting program so that it properly reads in a text file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -111,10 +115,14 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/ExerciseGenerator.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="3" />
+          <line>33</line>
+          <properties class="ExerciseGenerator" method="UserAddedExercise">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

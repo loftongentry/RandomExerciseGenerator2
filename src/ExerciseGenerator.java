@@ -3,6 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//TODO: Add an enumerator class for muscleLocation
 public class ExerciseGenerator{
     //Create class wide scanner
     static Scanner inUser = new Scanner(System.in);
@@ -18,8 +19,8 @@ public class ExerciseGenerator{
         Scanner inFile = new Scanner(inputFile);
         //While loop that checks to see if the Scanner has another line, and if it does, iterate overs that line
         while(inFile.hasNextLine()){
-            //create new tokens array and split each line where there is a String -delim-, and then store it in the tokens array
-            String[] tokens = inFile.nextLine().split("-delim-");
+            //create new tokens array and split each line where there is a comma, and then store it in the tokens array
+            String[] tokens = inFile.nextLine().split(",");
             //Creating new exercise object and then adding it to the arrayList
             Exercise newExercise = new Exercise(tokens[0], location.valueOf(tokens[1]), weighted.valueOf(tokens[2]), tokens[3]);
             list.add(newExercise);
@@ -31,15 +32,18 @@ public class ExerciseGenerator{
     }
 
     //Method to allow user to create new exercise objects and add it to the exercises arrayList
+    //TODO: Throw new error when the user input does not have a value in the enumerator class
+    //TODO: Throw error when there are spaces between user's input, as that causes IndexArrayOutOfBoundException
+    //TODO: Print statement for each of the thrown error above explaining why error occurred
     public static ArrayList<Exercise> UserAddedExercise(ArrayList<Exercise> exercises){
         //Asking for user input to determine parameters of the new exercise object
-        System.out.print("Enter the exercise name, location, if it is weighted or not, and the muscle exercised, each separated by a comma: ");
-        String s = inUser.nextLine();
+        System.out.print("Enter the exercise name, location, if it is weighted or not, and the muscle exercised, each separated by a comma and no space: ");
+        String s = inUser.next();
         //Create new tokens array, and split the above String wherever there is a comma, and then store it in the tokens array
         String[] tokens = s.split(",");
-        //Creating the new exercise object, adding it to the arrayList read into the method, and then returning that arrayList
         Exercise e = new Exercise(tokens[0],location.valueOf(tokens[1]),weighted.valueOf(tokens[2]),tokens[3]);
         exercises.add(e);
+        //Creating the new exercise object, adding it to the arrayList read into the method, and then returning that arrayList
         return exercises;
     }
     
