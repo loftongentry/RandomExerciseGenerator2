@@ -7,9 +7,9 @@ public class Exercise {
     private String exercise;
     private location location;
     private weighted weighted;
-    String muscleLocation;
+    private muscleLocation muscleLocation;
 
-    public Exercise(String newExercise, location newLocation, weighted newWeighted, String newMuscleLocation){
+    public Exercise(String newExercise, location newLocation, weighted newWeighted, muscleLocation newMuscleLocation){
         this.exercise = newExercise;
         //Three options: Home, Gym, Both
         this.location = newLocation;
@@ -22,7 +22,7 @@ public class Exercise {
     public void setExercise(String newExercise){ this.exercise = newExercise; }
     public void setLocation(location newLocation){ this.location = newLocation; }
     public void setWeighted(weighted newWeighted){ this.weighted = newWeighted; }
-    public void setMuscleLocation(String newMuscleLocation){ this.muscleLocation = newMuscleLocation; }
+    public void setMuscleLocation(muscleLocation newMuscleLocation){ this.muscleLocation = newMuscleLocation; }
     public String getExercise(){
         return this.exercise;
     }
@@ -32,7 +32,7 @@ public class Exercise {
     public weighted getWeighted(){
         return this.weighted;
     }
-    public String getMuscleLocation(){
+    public muscleLocation getMuscleLocation(){
         return this.muscleLocation;
     }
 
